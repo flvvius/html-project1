@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Flavius">
+        <meta name="description" content="This is my first HTML project">
+        <title>The Little Taco Shop</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <section id="navbar">
+            <h2 id="logo">🌮 LTS</h2>
+            <nav aria-label="primary-navgation" id="navigation-menu">
+                <ul>
+                    <li>
+                        <a href="/" class="nav-item">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-item">About LTS</a>
+                    </li>
+                    <li>
+                        <a href="hours.html" class="nav-item">Store Hours</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-item">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="title"></section>
+        <main class="title-box menu">
+            <h2>Our Menu</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Tacos</th>
+                            <th scope="col">Quantity</th> <!--<abbr title="Quantity">Qty</abbr>-->
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3">Crunchy</th>
+                            <td class="first">1</td>
+                            <td class="first price">$1.50</td>
+                        </tr>
+                        <tr>
+                            <td class="second">2</td>
+                            <td class="second price">$2.50</td>
+                        </tr>
+                        <tr>
+                            <td class="first">3</td>
+                            <td class="first price">$3.25</td>
+                        </tr>
+                        <tr class="border">
+                            <th scope="row" rowspan="3">Soft</th>
+                            <td class="second">1</td>
+                            <td class="second price">$2.00</td>
+                        </tr>
+                        <tr>
+                            <td class="first">2</td>
+                            <td class="first price">$3.50</td>
+                        </tr>
+                        <tr>
+                            <td class="second">3</td>
+                            <td class="second price">$4.50</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="salsa">Chips &amp; Salsa $2.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+        </main>
+        <footer>
+            <p>
+                Copyright &copy; The Little Taco Shop
+            </p>
+        </footer>
+    </body>
+</html>

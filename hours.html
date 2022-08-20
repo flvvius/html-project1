@@ -10,46 +10,47 @@
     </head>
     <body>
         <header>
-        <h1>Little Taco Shop Hours</h1>
-        <nav>
+        
+        <section id="navbar">
+            <h2 id="logo">🌮 LTS</h2>
+        <nav id="navigation-menu">
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/" class="nav-item">Home</a>
                 </li>
                 <li>
-                    <a href="/#about">About LTS</a>
+                    <a href="/about.html" class="nav-item">About LTS</a>
                 </li>
                 <li>
-                    <a href="/#menu">Our Menu</a>
+                    <a href="/menu.html" class="nav-item">Our Menu</a>
                 </li>
                 <li>
-                    <a href="/contact.html">Contact Us</a>
+                    <a href="/contact.html" class="nav-item">Contact Us</a>
                 </li>
             </ul>
         </nav>
-    </header>
-    <main>
+    </section>
+    <section class="title"></section>
+        <div class="title-box hours">
+            <h1 id="hours-h1">Little Taco Shop Hours</h1>
         <section>
-            <img src="/img/tacos_tray_400x267.png" alt="Tacos Tray" title="A Tray of Tasty Tacos" width="400" height="267" loading="eager">
-            <figure>
-                <figcaption>A Tray of Tasty Tacos</figcaption>
-            </figure>
-        </section>
-        <hr>
-        <section>
-            <p>We are open 7 days a week!</p>
+            <p id="hours-description">We are open 7 days a week!</p>
             <dl>
-                <dt>Sunday-Thursday</dt>
-                    <dd>11am-9pm</dd>
-                <dt>Friday-Saturday</dt>
-                    <dd>11am-11pm</dd>
+                <div id="program-container">
+                    <div id="weekdays">
+                        <dt>Sunday-Thursday</dt>
+                            <dd>11am-9pm</dd>
+                    </div>
+                    <div id="weekend">
+                        <dt>Friday-Saturday</dt>
+                            <dd>11am-11pm</dd>
+                    </div>
+                </div>
             </dl>
-            <p>
-            <a href="#">Back to top</a>
-            </p>
         </section>
-    </main>
-    <hr>
+        </div>   
+    </header>
+    
     <footer>
         <p>
             Copyright &copy; The Little Taco Shop
